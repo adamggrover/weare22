@@ -113,13 +113,14 @@
     }
 
     .announcement-box{
-      background-color: g.$purple;
+      background-color: g.$primary;
       width: 15rem;      
       padding: 1rem;
       min-height: 13rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      z-index: 2;
 
       color: white;
  
@@ -177,7 +178,7 @@
       height: 2.5rem;
       width: 2.5rem;
       border-radius: 25rem;
-      background-color: g.$purple;
+      background-color: g.$primary;
       text-align: center;
       display: flex;
       border: 1px solid white;
